@@ -18,6 +18,7 @@ Learning about conditional functions in JavaScript.
 ## screenshot
 
 [========]
+
 ![image text](./images/Screen%20Shot%202022-11-06%20at%2013.36.29.png)
 
 ## Conclusions

@@ -1,13 +1,9 @@
 console.log("hola perro");
-//boton
 const info = document.querySelectorAll('#question');
 const infoTitle = document.querySelectorAll('#info-title');
-//no mostror
 const response = document.querySelectorAll('#response');
 const arrowUp = document.querySelectorAll('#arrow')
 
-console.log(info);
-console.log(response);
 
 info.forEach((e, p)=> {
     e.addEventListener('click', ()=> {       
@@ -33,17 +29,9 @@ info.forEach((e, p)=> {
             });
         }
         console.log(showComment);
-        showComment();//console.log(info.nextElementSibling.innerText);
+        showComment();
     });
 
 })
-/*function removeSelection (){
-    info.forEach((deleted) => {
-        deleted.classList.add('inactive');
-        console.log(deleted.classList.add('inactive'));
-    })
-}
-const array1 = ["a", "b", "c"];
 
-array1.forEach(e => console.log(e));*/
 
